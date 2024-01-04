@@ -3,8 +3,8 @@ import git, os, glob, re, time
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-folder = r"C:\Users\sahil\Documents\Paradox Interactive\Hearts of Iron IV\mod\git-days-of-europe"
-service_account_key_file = r'C:\Users\sahil\Documents\repos\pic2eventpicbot\stable-store-399704-c6ba6f5a1c17.json'
+folder = r"C:\mod\git-days-of-europe"
+service_account_key_file = r'C:\stable-store-399704-c6ba6f5a1c17.json'
 
 
 def switchbranch(branch):
